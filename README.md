@@ -13,7 +13,10 @@ The TF-Luna can operate in two communication modes. Choose the appropriate wirin
 - Installed ROS2 Humble on Jetson Orin Nano [ROS2 Humble Installation Guide](https://nvidia-isaac-ros.github.io/getting_started/isaac_apt_repository.html)
 
 ### TF-Luna Pin Configuration
+![Wiring Diagram](wiring.jpg)
+
 The TF-Luna has 6 pins with the following functions:
+
 
 1. **Pin 1 (+5V)** → **Jetson Pin 4 (5V)**
    - Power input (3.7V-5.2V)
