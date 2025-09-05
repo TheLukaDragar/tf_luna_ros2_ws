@@ -231,6 +231,9 @@ rviz2
 - Set fixed frame to `tfluna_link`
 
 #### Using Foxglove Studio
+
+![Foxglove Studio](foxglove.png)
+
 1. Install Foxglove Bridge:
 ```bash
 sudo apt install ros-humble-foxglove-bridge
