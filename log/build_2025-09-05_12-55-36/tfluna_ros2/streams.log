@@ -1,0 +1,33 @@
+[1.351s] Invoking command in '/home/luka/tf_luna_ros2_ws/src/tfluna_ros2': PYTHONPATH=/home/luka/tf_luna_ros2_ws/build/tfluna_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tfluna_ros2 build --build-base /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build install --record /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/install.log --single-version-externally-managed install_data
+[1.871s] running egg_info
+[1.872s] writing ../../build/tfluna_ros2/tfluna_ros2.egg-info/PKG-INFO
+[1.872s] writing dependency_links to ../../build/tfluna_ros2/tfluna_ros2.egg-info/dependency_links.txt
+[1.873s] writing entry points to ../../build/tfluna_ros2/tfluna_ros2.egg-info/entry_points.txt
+[1.874s] writing requirements to ../../build/tfluna_ros2/tfluna_ros2.egg-info/requires.txt
+[1.874s] writing top-level names to ../../build/tfluna_ros2/tfluna_ros2.egg-info/top_level.txt
+[1.877s] reading manifest file '../../build/tfluna_ros2/tfluna_ros2.egg-info/SOURCES.txt'
+[1.879s] writing manifest file '../../build/tfluna_ros2/tfluna_ros2.egg-info/SOURCES.txt'
+[1.880s] running build
+[1.880s] running build_py
+[1.880s] copying tfluna_ros2/tfluna_publisher.py -> /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2
+[1.881s] copying tfluna_ros2/tfluna_subscriber.py -> /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2
+[1.881s] copying tfluna_ros2/__init__.py -> /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2
+[1.881s] running install
+[1.882s] running install_lib
+[1.883s] copying /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2/tfluna_publisher.py -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2
+[1.884s] copying /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2/tfluna_subscriber.py -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2
+[1.884s] copying /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2/__init__.py -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2
+[1.885s] byte-compiling /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2/tfluna_publisher.py to tfluna_publisher.cpython-310.pyc
+[1.888s] byte-compiling /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2/tfluna_subscriber.py to tfluna_subscriber.cpython-310.pyc
+[1.889s] byte-compiling /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2/__init__.py to __init__.cpython-310.pyc
+[1.889s] running install_data
+[1.890s] copying package.xml -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2
+[1.890s] copying config/tfluna_config.yaml -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/config
+[1.890s] running install_egg_info
+[1.894s] removing '/home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2-1.0.0-py3.10.egg-info' (and everything under it)
+[1.895s] Copying ../../build/tfluna_ros2/tfluna_ros2.egg-info to /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2-1.0.0-py3.10.egg-info
+[1.897s] running install_scripts
+[1.945s] Installing tfluna_publisher script to /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/tfluna_ros2
+[1.945s] Installing tfluna_subscriber script to /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/tfluna_ros2
+[1.946s] writing list of installed files to '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2/install.log'
+[2.016s] Invoked command in '/home/luka/tf_luna_ros2_ws/src/tfluna_ros2' returned '0': PYTHONPATH=/home/luka/tf_luna_ros2_ws/build/tfluna_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tfluna_ros2 build --build-base /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build install --record /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/install.log --single-version-externally-managed install_data

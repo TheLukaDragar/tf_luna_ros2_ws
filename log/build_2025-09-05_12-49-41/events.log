@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.001231] (tfluna_ros2) JobQueued: {'identifier': 'tfluna_ros2', 'dependencies': OrderedDict()}
+[0.001369] (tfluna_ros2) JobStarted: {'identifier': 'tfluna_ros2'}
+[0.099095] (-) TimerEvent: {}
+[0.199724] (-) TimerEvent: {}
+[0.300328] (-) TimerEvent: {}
+[0.400916] (-) TimerEvent: {}
+[0.501547] (-) TimerEvent: {}
+[0.602099] (-) TimerEvent: {}
+[0.702672] (-) TimerEvent: {}
+[0.803261] (-) TimerEvent: {}
+[0.903853] (-) TimerEvent: {}
+[1.004444] (-) TimerEvent: {}
+[1.105028] (-) TimerEvent: {}
+[1.205669] (-) TimerEvent: {}
+[1.306276] (-) TimerEvent: {}
+[1.356928] (tfluna_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/tfluna_ros2', 'build', '--build-base', '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build', 'install', '--record', '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/luka/tf_luna_ros2_ws/src/tfluna_ros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'luka', 'SSH_CLIENT': '100.80.168.145 61500 22', 'GIT_ASKPASS': '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:', 'BROWSER': '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/bin/helpers/browser.sh', 'HOME': '/home/luka', 'OLDPWD': '/home/luka/tf_luna_ros2_ws', 'DISABLE_AUTO_UPDATE': 'true', 'TERM_PROGRAM_VERSION': '1.5.9', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-c823bb40-92c7-4126-9128-4b394bfbfc27.sock', 'ROS_PYTHON_VERSION': '3', 'PAGER': 'sh -c "head -n 10000 | cat"', 'VSCODE_GIT_ASKPASS_MAIN': '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'npm_config_yes': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'COMPOSER_NO_INTERACTION': '1', 'PATH': '/home/luka/.local/bin:/usr/local/cuda-12.6/bin:/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'CURSOR_AGENT': '1', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-86db551ae0.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2', 'SSH_CONNECTION': '100.80.168.145 61500 100.110.109.61 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'PIP_NO_INPUT': 'true'}, 'shell': False}
+[1.406414] (-) TimerEvent: {}
+[1.507036] (-) TimerEvent: {}
+[1.607711] (-) TimerEvent: {}
+[1.708299] (-) TimerEvent: {}
+[1.808923] (-) TimerEvent: {}
+[1.875764] (tfluna_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[1.877119] (tfluna_ros2) StdoutLine: {'line': b'creating ../../build/tfluna_ros2/tfluna_ros2.egg-info\n'}
+[1.877725] (tfluna_ros2) StdoutLine: {'line': b'writing ../../build/tfluna_ros2/tfluna_ros2.egg-info/PKG-INFO\n'}
+[1.878338] (tfluna_ros2) StdoutLine: {'line': b'writing dependency_links to ../../build/tfluna_ros2/tfluna_ros2.egg-info/dependency_links.txt\n'}
+[1.878695] (tfluna_ros2) StdoutLine: {'line': b'writing entry points to ../../build/tfluna_ros2/tfluna_ros2.egg-info/entry_points.txt\n'}
+[1.879011] (tfluna_ros2) StdoutLine: {'line': b'writing requirements to ../../build/tfluna_ros2/tfluna_ros2.egg-info/requires.txt\n'}
+[1.879247] (tfluna_ros2) StdoutLine: {'line': b'writing top-level names to ../../build/tfluna_ros2/tfluna_ros2.egg-info/top_level.txt\n'}
+[1.879612] (tfluna_ros2) StdoutLine: {'line': b"writing manifest file '../../build/tfluna_ros2/tfluna_ros2.egg-info/SOURCES.txt'\n"}
+[1.883975] (tfluna_ros2) StdoutLine: {'line': b"reading manifest file '../../build/tfluna_ros2/tfluna_ros2.egg-info/SOURCES.txt'\n"}
+[1.885419] (tfluna_ros2) StdoutLine: {'line': b"writing manifest file '../../build/tfluna_ros2/tfluna_ros2.egg-info/SOURCES.txt'\n"}
+[1.885753] (tfluna_ros2) StdoutLine: {'line': b'running build\n'}
+[1.885977] (tfluna_ros2) StdoutLine: {'line': b'running build_py\n'}
+[1.886322] (tfluna_ros2) StdoutLine: {'line': b'creating /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build\n'}
+[1.886758] (tfluna_ros2) StdoutLine: {'line': b'creating /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib\n'}
+[1.886926] (tfluna_ros2) StdoutLine: {'line': b'creating /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2\n'}
+[1.887143] (tfluna_ros2) StdoutLine: {'line': b'copying tfluna_ros2/tfluna_publisher.py -> /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2\n'}
+[1.887330] (tfluna_ros2) StdoutLine: {'line': b'copying tfluna_ros2/tfluna_subscriber.py -> /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2\n'}
+[1.887469] (tfluna_ros2) StdoutLine: {'line': b'copying tfluna_ros2/__init__.py -> /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2\n'}
+[1.887693] (tfluna_ros2) StdoutLine: {'line': b'running install\n'}
+[1.888427] (tfluna_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[1.890168] (tfluna_ros2) StdoutLine: {'line': b'creating /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2\n'}
+[1.890471] (tfluna_ros2) StdoutLine: {'line': b'copying /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2/tfluna_publisher.py -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2\n'}
+[1.890721] (tfluna_ros2) StdoutLine: {'line': b'copying /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2/tfluna_subscriber.py -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2\n'}
+[1.891064] (tfluna_ros2) StdoutLine: {'line': b'copying /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2/__init__.py -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2\n'}
+[1.892118] (tfluna_ros2) StdoutLine: {'line': b'byte-compiling /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2/tfluna_publisher.py to tfluna_publisher.cpython-310.pyc\n'}
+[1.894916] (tfluna_ros2) StdoutLine: {'line': b'byte-compiling /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2/tfluna_subscriber.py to tfluna_subscriber.cpython-310.pyc\n'}
+[1.895853] (tfluna_ros2) StdoutLine: {'line': b'byte-compiling /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2/__init__.py to __init__.cpython-310.pyc\n'}
+[1.896196] (tfluna_ros2) StdoutLine: {'line': b'running install_data\n'}
+[1.896446] (tfluna_ros2) StdoutLine: {'line': b'creating /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index\n'}
+[1.896841] (tfluna_ros2) StdoutLine: {'line': b'creating /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index/resource_index\n'}
+[1.897341] (tfluna_ros2) StdoutLine: {'line': b'creating /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index/resource_index/packages\n'}
+[1.897951] (tfluna_ros2) StdoutLine: {'line': b'copying resource/tfluna_ros2 -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index/resource_index/packages\n'}
+[1.898196] (tfluna_ros2) StdoutLine: {'line': b'copying package.xml -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2\n'}
+[1.898352] (tfluna_ros2) StdoutLine: {'line': b'creating /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/launch\n'}
+[1.898496] (tfluna_ros2) StdoutLine: {'line': b'creating /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/config\n'}
+[1.898635] (tfluna_ros2) StdoutLine: {'line': b'copying config/tfluna_config.yaml -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/config\n'}
+[1.898797] (tfluna_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.902986] (tfluna_ros2) StdoutLine: {'line': b'Copying ../../build/tfluna_ros2/tfluna_ros2.egg-info to /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2-1.0.0-py3.10.egg-info\n'}
+[1.905185] (tfluna_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[1.909014] (-) TimerEvent: {}
+[1.955202] (tfluna_ros2) StdoutLine: {'line': b'Installing tfluna_publisher script to /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/tfluna_ros2\n'}
+[1.955746] (tfluna_ros2) StdoutLine: {'line': b'Installing tfluna_subscriber script to /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/tfluna_ros2\n'}
+[1.956807] (tfluna_ros2) StdoutLine: {'line': b"writing list of installed files to '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2/install.log'\n"}
+[2.009215] (-) TimerEvent: {}
+[2.026686] (tfluna_ros2) CommandEnded: {'returncode': 0}
+[2.063376] (tfluna_ros2) JobEnded: {'identifier': 'tfluna_ros2', 'rc': 0}
+[2.065401] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+Invoking command in '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luka/tf_luna_ros2_ws/build/tfluna_ros2 -- -j6 -l6
+Invoked command in '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luka/tf_luna_ros2_ws/build/tfluna_ros2 -- -j6 -l6

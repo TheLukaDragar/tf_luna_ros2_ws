@@ -1,0 +1,260 @@
+[0.000000] (-) TimerEvent: {}
+[0.000710] (tfluna_ros2) JobQueued: {'identifier': 'tfluna_ros2', 'dependencies': OrderedDict()}
+[0.001595] (tfluna_ros2) JobStarted: {'identifier': 'tfluna_ros2'}
+[0.023307] (tfluna_ros2) JobProgress: {'identifier': 'tfluna_ros2', 'progress': 'cmake'}
+[0.025147] (tfluna_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/luka/tf_luna_ros2_ws/src/tfluna_ros2', '-DCMAKE_INSTALL_PREFIX=/home/luka/tf_luna_ros2_ws/install/tfluna_ros2'], 'cwd': '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luka'), ('SSH_CLIENT', '100.80.168.145 52218 22'), ('GIT_ASKPASS', '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('BROWSER', '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/bin/helpers/browser.sh'), ('HOME', '/home/luka'), ('DISABLE_AUTO_UPDATE', 'true'), ('TERM_PROGRAM_VERSION', '1.5.9'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-3f6821b5-bd57-4f2e-b228-75ad5ac9e803.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'sh -c "head -n 10000 | cat"'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('npm_config_yes', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('PATH', '/home/luka/.local/bin:/usr/local/cuda-12.6/bin:/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/bin/remote-cli:/home/luka/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/luka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-86db551ae0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2'), ('SSH_CONNECTION', '100.80.168.145 52218 100.110.109.61 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('PIP_NO_INPUT', 'true'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.074115] (tfluna_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099369] (-) TimerEvent: {}
+[0.199965] (-) TimerEvent: {}
+[0.300627] (-) TimerEvent: {}
+[0.401297] (-) TimerEvent: {}
+[0.404405] (tfluna_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.485738] (tfluna_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.492030] (tfluna_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.501359] (-) TimerEvent: {}
+[0.507331] (tfluna_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.531529] (tfluna_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.563904] (tfluna_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601495] (-) TimerEvent: {}
+[0.646533] (tfluna_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.650489] (tfluna_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701607] (-) TimerEvent: {}
+[0.802165] (-) TimerEvent: {}
+[0.867576] (tfluna_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.902307] (-) TimerEvent: {}
+[0.995402] (tfluna_ros2) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.002390] (-) TimerEvent: {}
+[1.042747] (tfluna_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.102544] (-) TimerEvent: {}
+[1.112168] (tfluna_ros2) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.121814] (tfluna_ros2) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.125295] (tfluna_ros2) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.202686] (-) TimerEvent: {}
+[1.294330] (tfluna_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.302832] (-) TimerEvent: {}
+[1.403421] (-) TimerEvent: {}
+[1.498038] (tfluna_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.503504] (-) TimerEvent: {}
+[1.552429] (tfluna_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[1.571116] (tfluna_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/luka/tf_luna_ros2_ws/build/tfluna_ros2\n'}
+[1.594261] (tfluna_ros2) CommandEnded: {'returncode': 0}
+[1.595909] (tfluna_ros2) JobProgress: {'identifier': 'tfluna_ros2', 'progress': 'build'}
+[1.598168] (tfluna_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2', '--', '-j6', '-l6'], 'cwd': '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luka'), ('SSH_CLIENT', '100.80.168.145 52218 22'), ('GIT_ASKPASS', '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('BROWSER', '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/bin/helpers/browser.sh'), ('HOME', '/home/luka'), ('DISABLE_AUTO_UPDATE', 'true'), ('TERM_PROGRAM_VERSION', '1.5.9'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-3f6821b5-bd57-4f2e-b228-75ad5ac9e803.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'sh -c "head -n 10000 | cat"'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('npm_config_yes', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('PATH', '/home/luka/.local/bin:/usr/local/cuda-12.6/bin:/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/bin/remote-cli:/home/luka/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/luka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-86db551ae0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2'), ('SSH_CONNECTION', '100.80.168.145 52218 100.110.109.61 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('PIP_NO_INPUT', 'true'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.603608] (-) TimerEvent: {}
+[1.691139] (tfluna_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tfluna_i2c_publisher_cpp\x1b[0m\n'}
+[1.691950] (tfluna_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tfluna_publisher_component\x1b[0m\n'}
+[1.692184] (tfluna_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tfluna_publisher_cpp\x1b[0m\n'}
+[1.703706] (-) TimerEvent: {}
+[1.756299] (tfluna_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tfluna_i2c_publisher_cpp.dir/src/tfluna_i2c_publisher_cpp.cpp.o\x1b[0m\n'}
+[1.756855] (tfluna_ros2) StdoutLine: {'line': b'[ 50%] Built target tfluna_publisher_component\n'}
+[1.760330] (tfluna_ros2) StdoutLine: {'line': b'[ 83%] Built target tfluna_publisher_cpp\n'}
+[1.803902] (-) TimerEvent: {}
+[1.904557] (-) TimerEvent: {}
+[2.005248] (-) TimerEvent: {}
+[2.105910] (-) TimerEvent: {}
+[2.206588] (-) TimerEvent: {}
+[2.307279] (-) TimerEvent: {}
+[2.407948] (-) TimerEvent: {}
+[2.508677] (-) TimerEvent: {}
+[2.609385] (-) TimerEvent: {}
+[2.710110] (-) TimerEvent: {}
+[2.810822] (-) TimerEvent: {}
+[2.911538] (-) TimerEvent: {}
+[3.012246] (-) TimerEvent: {}
+[3.112995] (-) TimerEvent: {}
+[3.213712] (-) TimerEvent: {}
+[3.314424] (-) TimerEvent: {}
+[3.415142] (-) TimerEvent: {}
+[3.515859] (-) TimerEvent: {}
+[3.616573] (-) TimerEvent: {}
+[3.717317] (-) TimerEvent: {}
+[3.818045] (-) TimerEvent: {}
+[3.918750] (-) TimerEvent: {}
+[4.019477] (-) TimerEvent: {}
+[4.120174] (-) TimerEvent: {}
+[4.220910] (-) TimerEvent: {}
+[4.321615] (-) TimerEvent: {}
+[4.422321] (-) TimerEvent: {}
+[4.523028] (-) TimerEvent: {}
+[4.623752] (-) TimerEvent: {}
+[4.724473] (-) TimerEvent: {}
+[4.825271] (-) TimerEvent: {}
+[4.925983] (-) TimerEvent: {}
+[5.026710] (-) TimerEvent: {}
+[5.127461] (-) TimerEvent: {}
+[5.228165] (-) TimerEvent: {}
+[5.328908] (-) TimerEvent: {}
+[5.429623] (-) TimerEvent: {}
+[5.530329] (-) TimerEvent: {}
+[5.631044] (-) TimerEvent: {}
+[5.731767] (-) TimerEvent: {}
+[5.832496] (-) TimerEvent: {}
+[5.933228] (-) TimerEvent: {}
+[6.033943] (-) TimerEvent: {}
+[6.134695] (-) TimerEvent: {}
+[6.235491] (-) TimerEvent: {}
+[6.336248] (-) TimerEvent: {}
+[6.437042] (-) TimerEvent: {}
+[6.537819] (-) TimerEvent: {}
+[6.638582] (-) TimerEvent: {}
+[6.739333] (-) TimerEvent: {}
+[6.840056] (-) TimerEvent: {}
+[6.940841] (-) TimerEvent: {}
+[7.041859] (-) TimerEvent: {}
+[7.142601] (-) TimerEvent: {}
+[7.243360] (-) TimerEvent: {}
+[7.344122] (-) TimerEvent: {}
+[7.444892] (-) TimerEvent: {}
+[7.545651] (-) TimerEvent: {}
+[7.646413] (-) TimerEvent: {}
+[7.747160] (-) TimerEvent: {}
+[7.847924] (-) TimerEvent: {}
+[7.948723] (-) TimerEvent: {}
+[8.049445] (-) TimerEvent: {}
+[8.150209] (-) TimerEvent: {}
+[8.250926] (-) TimerEvent: {}
+[8.351904] (-) TimerEvent: {}
+[8.452680] (-) TimerEvent: {}
+[8.553460] (-) TimerEvent: {}
+[8.654221] (-) TimerEvent: {}
+[8.754972] (-) TimerEvent: {}
+[8.855696] (-) TimerEvent: {}
+[8.956466] (-) TimerEvent: {}
+[9.057258] (-) TimerEvent: {}
+[9.158020] (-) TimerEvent: {}
+[9.259019] (-) TimerEvent: {}
+[9.359993] (-) TimerEvent: {}
+[9.460749] (-) TimerEvent: {}
+[9.561652] (-) TimerEvent: {}
+[9.662425] (-) TimerEvent: {}
+[9.763161] (-) TimerEvent: {}
+[9.863929] (-) TimerEvent: {}
+[9.964662] (-) TimerEvent: {}
+[10.065358] (-) TimerEvent: {}
+[10.166117] (-) TimerEvent: {}
+[10.266876] (-) TimerEvent: {}
+[10.367640] (-) TimerEvent: {}
+[10.468377] (-) TimerEvent: {}
+[10.569149] (-) TimerEvent: {}
+[10.669919] (-) TimerEvent: {}
+[10.770679] (-) TimerEvent: {}
+[10.871432] (-) TimerEvent: {}
+[10.972321] (-) TimerEvent: {}
+[11.073134] (-) TimerEvent: {}
+[11.173864] (-) TimerEvent: {}
+[11.274631] (-) TimerEvent: {}
+[11.375425] (-) TimerEvent: {}
+[11.476197] (-) TimerEvent: {}
+[11.576972] (-) TimerEvent: {}
+[11.677725] (-) TimerEvent: {}
+[11.778486] (-) TimerEvent: {}
+[11.879246] (-) TimerEvent: {}
+[11.980046] (-) TimerEvent: {}
+[12.080770] (-) TimerEvent: {}
+[12.181515] (-) TimerEvent: {}
+[12.282272] (-) TimerEvent: {}
+[12.383140] (-) TimerEvent: {}
+[12.483921] (-) TimerEvent: {}
+[12.584706] (-) TimerEvent: {}
+[12.685461] (-) TimerEvent: {}
+[12.786216] (-) TimerEvent: {}
+[12.886943] (-) TimerEvent: {}
+[12.987718] (-) TimerEvent: {}
+[13.088417] (-) TimerEvent: {}
+[13.189216] (-) TimerEvent: {}
+[13.290092] (-) TimerEvent: {}
+[13.390960] (-) TimerEvent: {}
+[13.491902] (-) TimerEvent: {}
+[13.592810] (-) TimerEvent: {}
+[13.693636] (-) TimerEvent: {}
+[13.794500] (-) TimerEvent: {}
+[13.895367] (-) TimerEvent: {}
+[13.996258] (-) TimerEvent: {}
+[14.097173] (-) TimerEvent: {}
+[14.198072] (-) TimerEvent: {}
+[14.298914] (-) TimerEvent: {}
+[14.399791] (-) TimerEvent: {}
+[14.500706] (-) TimerEvent: {}
+[14.601637] (-) TimerEvent: {}
+[14.702473] (-) TimerEvent: {}
+[14.803345] (-) TimerEvent: {}
+[14.904243] (-) TimerEvent: {}
+[15.005200] (-) TimerEvent: {}
+[15.106020] (-) TimerEvent: {}
+[15.206918] (-) TimerEvent: {}
+[15.307842] (-) TimerEvent: {}
+[15.408737] (-) TimerEvent: {}
+[15.509593] (-) TimerEvent: {}
+[15.610461] (-) TimerEvent: {}
+[15.711346] (-) TimerEvent: {}
+[15.812207] (-) TimerEvent: {}
+[15.913123] (-) TimerEvent: {}
+[16.013942] (-) TimerEvent: {}
+[16.114743] (-) TimerEvent: {}
+[16.215562] (-) TimerEvent: {}
+[16.316379] (-) TimerEvent: {}
+[16.417251] (-) TimerEvent: {}
+[16.518146] (-) TimerEvent: {}
+[16.619062] (-) TimerEvent: {}
+[16.719941] (-) TimerEvent: {}
+[16.820786] (-) TimerEvent: {}
+[16.921639] (-) TimerEvent: {}
+[17.022507] (-) TimerEvent: {}
+[17.123345] (-) TimerEvent: {}
+[17.224189] (-) TimerEvent: {}
+[17.325051] (-) TimerEvent: {}
+[17.425880] (-) TimerEvent: {}
+[17.526718] (-) TimerEvent: {}
+[17.627537] (-) TimerEvent: {}
+[17.728405] (-) TimerEvent: {}
+[17.829334] (-) TimerEvent: {}
+[17.930214] (-) TimerEvent: {}
+[18.031037] (-) TimerEvent: {}
+[18.131846] (-) TimerEvent: {}
+[18.232702] (-) TimerEvent: {}
+[18.333533] (-) TimerEvent: {}
+[18.434345] (-) TimerEvent: {}
+[18.535165] (-) TimerEvent: {}
+[18.636034] (-) TimerEvent: {}
+[18.736912] (-) TimerEvent: {}
+[18.837721] (-) TimerEvent: {}
+[18.938401] (-) TimerEvent: {}
+[19.033532] (tfluna_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tfluna_i2c_publisher_cpp\x1b[0m\n'}
+[19.038516] (-) TimerEvent: {}
+[19.139135] (-) TimerEvent: {}
+[19.239863] (-) TimerEvent: {}
+[19.340600] (-) TimerEvent: {}
+[19.368184] (tfluna_ros2) StdoutLine: {'line': b'[100%] Built target tfluna_i2c_publisher_cpp\n'}
+[19.396153] (tfluna_ros2) CommandEnded: {'returncode': 0}
+[19.398498] (tfluna_ros2) JobProgress: {'identifier': 'tfluna_ros2', 'progress': 'install'}
+[19.417507] (tfluna_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2'], 'cwd': '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'luka'), ('SSH_CLIENT', '100.80.168.145 52218 22'), ('GIT_ASKPASS', '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('BROWSER', '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/bin/helpers/browser.sh'), ('HOME', '/home/luka'), ('DISABLE_AUTO_UPDATE', 'true'), ('TERM_PROGRAM_VERSION', '1.5.9'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-3f6821b5-bd57-4f2e-b228-75ad5ac9e803.sock'), ('ROS_PYTHON_VERSION', '3'), ('PAGER', 'sh -c "head -n 10000 | cat"'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('npm_config_yes', 'true'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('PATH', '/home/luka/.local/bin:/usr/local/cuda-12.6/bin:/home/luka/.cursor-server/cli/servers/Stable-de327274300c6f38ec9f4240d11e82c3b0660b20/server/bin/remote-cli:/home/luka/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/home/luka/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('CURSOR_AGENT', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-86db551ae0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2'), ('SSH_CONNECTION', '100.80.168.145 52218 100.110.109.61 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('PIP_NO_INPUT', 'true'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[19.435504] (tfluna_ros2) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[19.436263] (tfluna_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/tfluna_ros2/tfluna_publisher_cpp\n'}
+[19.436538] (tfluna_ros2) StdoutLine: {'line': b'-- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/tfluna_ros2/tfluna_i2c_publisher_cpp\n'}
+[19.438521] (tfluna_ros2) StdoutLine: {'line': b'-- Set runtime path of "/home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/tfluna_ros2/tfluna_i2c_publisher_cpp" to ""\n'}
+[19.440569] (tfluna_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/libtfluna_publisher_component.so\n'}
+[19.440795] (-) TimerEvent: {}
+[19.441118] (tfluna_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2//launch\n'}
+[19.441321] (tfluna_ros2) StdoutLine: {'line': b'-- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2//launch/tfluna_i2c_launch.py\n'}
+[19.441581] (tfluna_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2//launch/tfluna_launch.py\n'}
+[19.441855] (tfluna_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2//config\n'}
+[19.442139] (tfluna_ros2) StdoutLine: {'line': b'-- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2//config/tfluna_config.yaml\n'}
+[19.442352] (tfluna_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index/resource_index/package_run_dependencies/tfluna_ros2\n'}
+[19.442569] (tfluna_ros2) StdoutLine: {'line': b'-- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index/resource_index/parent_prefix_path/tfluna_ros2\n'}
+[19.442760] (tfluna_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/environment/ament_prefix_path.sh\n'}
+[19.442917] (tfluna_ros2) StdoutLine: {'line': b'-- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/environment/ament_prefix_path.dsv\n'}
+[19.443126] (tfluna_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/environment/path.sh\n'}
+[19.443283] (tfluna_ros2) StdoutLine: {'line': b'-- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/environment/path.dsv\n'}
+[19.443465] (tfluna_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/local_setup.bash\n'}
+[19.443692] (tfluna_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/local_setup.sh\n'}
+[19.443843] (tfluna_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/local_setup.zsh\n'}
+[19.444017] (tfluna_ros2) StdoutLine: {'line': b'-- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/local_setup.dsv\n'}
+[19.444165] (tfluna_ros2) StdoutLine: {'line': b'-- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/package.dsv\n'}
+[19.444352] (tfluna_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index/resource_index/packages/tfluna_ros2\n'}
+[19.444571] (tfluna_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index/resource_index/rclcpp_components/tfluna_ros2\n'}
+[19.444784] (tfluna_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/cmake/tfluna_ros2Config.cmake\n'}
+[19.444929] (tfluna_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/cmake/tfluna_ros2Config-version.cmake\n'}
+[19.445070] (tfluna_ros2) StdoutLine: {'line': b'-- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/package.xml\n'}
+[19.448937] (tfluna_ros2) CommandEnded: {'returncode': 0}
+[19.527712] (tfluna_ros2) JobEnded: {'identifier': 'tfluna_ros2', 'rc': 0}
+[19.529384] (-) EventReactorShutdown: {}

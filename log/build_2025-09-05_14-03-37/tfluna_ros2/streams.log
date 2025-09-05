@@ -1,0 +1,38 @@
+[0.025s] Invoking command in '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luka/tf_luna_ros2_ws/build/tfluna_ros2 -- -j6 -l6
+[0.077s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.367s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.442s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.447s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.459s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.479s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.570s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.573s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.773s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.875s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.912s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.970s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.976s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.979s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.120s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.324s] -- Configuring done
+[1.370s] -- Generating done
+[1.389s] -- Build files have been written to: /home/luka/tf_luna_ros2_ws/build/tfluna_ros2
+[1.452s] [35m[1mConsolidate compiler generated dependencies of target tfluna_publisher_component[0m
+[1.452s] [35m[1mConsolidate compiler generated dependencies of target tfluna_publisher_cpp[0m
+[1.472s] [ 16%] [32mBuilding CXX object CMakeFiles/tfluna_i2c_publisher_cpp.dir/src/tfluna_i2c_publisher_cpp.cpp.o[0m
+[1.500s] [ 50%] [32mBuilding CXX object CMakeFiles/tfluna_publisher_component.dir/src/tfluna_publisher_cpp.cpp.o[0m
+[1.500s] [ 50%] [32mBuilding CXX object CMakeFiles/tfluna_publisher_cpp.dir/src/tfluna_publisher_cpp.cpp.o[0m
+[19.574s] [ 66%] [32m[1mLinking CXX executable tfluna_i2c_publisher_cpp[0m
+[19.683s] [ 83%] [32m[1mLinking CXX executable tfluna_publisher_cpp[0m
+[19.861s] /usr/bin/ld: CMakeFiles/tfluna_i2c_publisher_cpp.dir/src/tfluna_i2c_publisher_cpp.cpp.o: in function `tfluna_ros2::TFLunaI2CPublisher::read_tfluna_data()':
+[19.862s] tfluna_i2c_publisher_cpp.cpp:(.text._ZN11tfluna_ros218TFLunaI2CPublisher16read_tfluna_dataEv[_ZN11tfluna_ros218TFLunaI2CPublisher16read_tfluna_dataEv]+0x58): undefined reference to `i2c_smbus_write_byte(int, unsigned char)'
+[19.886s] collect2: error: ld returned 1 exit status
+[19.890s] gmake[2]: *** [CMakeFiles/tfluna_i2c_publisher_cpp.dir/build.make:216: tfluna_i2c_publisher_cpp] Error 1
+[19.890s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/tfluna_i2c_publisher_cpp.dir/all] Error 2
+[19.890s] gmake[1]: *** Waiting for unfinished jobs....
+[20.001s] [ 83%] Built target tfluna_publisher_cpp
+[20.353s] [100%] [32m[1mLinking CXX shared library libtfluna_publisher_component.so[0m
+[20.627s] [100%] Built target tfluna_publisher_component
+[20.629s] gmake: *** [Makefile:146: all] Error 2
+[20.635s] Invoked command in '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luka/tf_luna_ros2_ws/build/tfluna_ros2 -- -j6 -l6

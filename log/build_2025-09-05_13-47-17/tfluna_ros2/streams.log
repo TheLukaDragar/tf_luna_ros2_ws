@@ -1,0 +1,81 @@
+[0.021s] Invoking command in '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luka/tf_luna_ros2_ws/build/tfluna_ros2 -- -j6 -l6
+[0.080s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.379s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.456s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.461s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.473s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.492s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.518s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.584s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.586s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.781s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.881s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.918s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.976s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.983s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.985s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.268s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.468s] -- Configuring done
+[1.508s] -- Generating done
+[1.525s] -- Build files have been written to: /home/luka/tf_luna_ros2_ws/build/tfluna_ros2
+[1.590s] [35m[1mConsolidate compiler generated dependencies of target tfluna_publisher_cpp[0m
+[1.590s] [35m[1mConsolidate compiler generated dependencies of target tfluna_publisher_component[0m
+[1.627s] [  0%] Built target ament_cmake_python_copy_tfluna_ros2
+[1.627s] [  0%] Built target ament_cmake_python_copy_tfluna_ros2_setup
+[1.636s] [ 25%] [32mBuilding CXX object CMakeFiles/tfluna_publisher_component.dir/src/tfluna_publisher_cpp.cpp.o[0m
+[1.637s] [ 50%] [32mBuilding CXX object CMakeFiles/tfluna_publisher_cpp.dir/src/tfluna_publisher_cpp.cpp.o[0m
+[2.169s] running egg_info
+[2.171s] writing tfluna_ros2.egg-info/PKG-INFO
+[2.171s] writing dependency_links to tfluna_ros2.egg-info/dependency_links.txt
+[2.172s] writing top-level names to tfluna_ros2.egg-info/top_level.txt
+[2.177s] reading manifest file 'tfluna_ros2.egg-info/SOURCES.txt'
+[2.179s] writing manifest file 'tfluna_ros2.egg-info/SOURCES.txt'
+[2.254s] [ 50%] Built target ament_cmake_python_build_tfluna_ros2_egg
+[19.419s] [ 75%] [32m[1mLinking CXX executable tfluna_publisher_cpp[0m
+[19.732s] [ 75%] Built target tfluna_publisher_cpp
+[20.117s] [100%] [32m[1mLinking CXX shared library libtfluna_publisher_component.so[0m
+[20.403s] [100%] Built target tfluna_publisher_component
+[20.429s] Invoked command in '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/luka/tf_luna_ros2_ws/build/tfluna_ros2 -- -j6 -l6
+[20.453s] Invoking command in '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luka/tf_luna_ros2_ws/build/tfluna_ros2
+[20.471s] -- Install configuration: "Release"
+[20.471s] -- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/tfluna_ros2/tfluna_publisher_cpp
+[20.473s] -- Set runtime path of "/home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/tfluna_ros2/tfluna_publisher_cpp" to ""
+[20.474s] -- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/libtfluna_publisher_component.so
+[20.475s] -- Set runtime path of "/home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/libtfluna_publisher_component.so" to ""
+[20.476s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/environment/pythonpath.sh
+[20.476s] -- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/environment/pythonpath.dsv
+[20.476s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/local/lib/python3.10/dist-packages/tfluna_ros2-1.0.0-py3.10.egg-info
+[20.477s] -- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/local/lib/python3.10/dist-packages/tfluna_ros2-1.0.0-py3.10.egg-info/top_level.txt
+[20.477s] -- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/local/lib/python3.10/dist-packages/tfluna_ros2-1.0.0-py3.10.egg-info/dependency_links.txt
+[20.478s] -- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/local/lib/python3.10/dist-packages/tfluna_ros2-1.0.0-py3.10.egg-info/PKG-INFO
+[20.478s] -- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/local/lib/python3.10/dist-packages/tfluna_ros2-1.0.0-py3.10.egg-info/SOURCES.txt
+[20.479s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/local/lib/python3.10/dist-packages/tfluna_ros2
+[20.479s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/local/lib/python3.10/dist-packages/tfluna_ros2/tfluna_publisher.py
+[20.479s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/local/lib/python3.10/dist-packages/tfluna_ros2/tfluna_subscriber.py
+[20.479s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/local/lib/python3.10/dist-packages/tfluna_ros2/__init__.py
+[20.547s] Listing '/home/luka/tf_luna_ros2_ws/install/tfluna_ros2/local/lib/python3.10/dist-packages/tfluna_ros2'...
+[20.558s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/tfluna_ros2/tfluna_publisher.py
+[20.558s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/tfluna_ros2/tfluna_subscriber.py
+[20.558s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2//launch
+[20.559s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2//launch/dual_tfluna_launch.py
+[20.559s] -- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2//launch/tfluna_cpp_launch.py
+[20.560s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2//launch/tfluna_launch.py
+[20.560s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2//config
+[20.560s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2//config/tfluna_config.yaml
+[20.560s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index/resource_index/package_run_dependencies/tfluna_ros2
+[20.561s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index/resource_index/parent_prefix_path/tfluna_ros2
+[20.561s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/environment/ament_prefix_path.sh
+[20.561s] -- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/environment/ament_prefix_path.dsv
+[20.562s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/environment/path.sh
+[20.562s] -- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/environment/path.dsv
+[20.562s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/local_setup.bash
+[20.562s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/local_setup.sh
+[20.563s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/local_setup.zsh
+[20.563s] -- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/local_setup.dsv
+[20.563s] -- Installing: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/package.dsv
+[20.563s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index/resource_index/packages/tfluna_ros2
+[20.564s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index/resource_index/rclcpp_components/tfluna_ros2
+[20.564s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/cmake/tfluna_ros2Config.cmake
+[20.564s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/cmake/tfluna_ros2Config-version.cmake
+[20.564s] -- Up-to-date: /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/package.xml
+[20.568s] Invoked command in '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/luka/tf_luna_ros2_ws/build/tfluna_ros2

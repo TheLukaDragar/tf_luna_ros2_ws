@@ -1,0 +1,4 @@
+[console_scripts]
+tfluna_publisher = tfluna_ros2.tfluna_publisher:main
+tfluna_subscriber = tfluna_ros2.tfluna_subscriber:main
+

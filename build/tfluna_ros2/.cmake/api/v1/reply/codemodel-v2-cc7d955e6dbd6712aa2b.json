@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-aa937e3e42a228f2d958.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tfluna_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "tfluna_i2c_publisher_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tfluna_i2c_publisher_cpp-Release-2454c45106704a37e661.json",
+					"name" : "tfluna_i2c_publisher_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tfluna_publisher_component::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tfluna_publisher_component-Release-6f81301dc895c383237b.json",
+					"name" : "tfluna_publisher_component",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tfluna_publisher_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tfluna_publisher_cpp-Release-8e1117649d660e8f4cb2.json",
+					"name" : "tfluna_publisher_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tfluna_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tfluna_ros2_uninstall-Release-9d7789678dec17aff482.json",
+					"name" : "tfluna_ros2_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-aafe46c0afdf3fd818d9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/luka/tf_luna_ros2_ws/build/tfluna_ros2",
+		"source" : "/home/luka/tf_luna_ros2_ws/src/tfluna_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

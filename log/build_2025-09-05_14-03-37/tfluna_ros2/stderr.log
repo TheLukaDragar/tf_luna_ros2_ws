@@ -1,0 +1,7 @@
+/usr/bin/ld: CMakeFiles/tfluna_i2c_publisher_cpp.dir/src/tfluna_i2c_publisher_cpp.cpp.o: in function `tfluna_ros2::TFLunaI2CPublisher::read_tfluna_data()':
+tfluna_i2c_publisher_cpp.cpp:(.text._ZN11tfluna_ros218TFLunaI2CPublisher16read_tfluna_dataEv[_ZN11tfluna_ros218TFLunaI2CPublisher16read_tfluna_dataEv]+0x58): undefined reference to `i2c_smbus_write_byte(int, unsigned char)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/tfluna_i2c_publisher_cpp.dir/build.make:216: tfluna_i2c_publisher_cpp] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/tfluna_i2c_publisher_cpp.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

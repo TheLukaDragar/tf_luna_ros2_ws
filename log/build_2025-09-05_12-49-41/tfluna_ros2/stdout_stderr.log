@@ -1,0 +1,42 @@
+running egg_info
+creating ../../build/tfluna_ros2/tfluna_ros2.egg-info
+writing ../../build/tfluna_ros2/tfluna_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/tfluna_ros2/tfluna_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/tfluna_ros2/tfluna_ros2.egg-info/entry_points.txt
+writing requirements to ../../build/tfluna_ros2/tfluna_ros2.egg-info/requires.txt
+writing top-level names to ../../build/tfluna_ros2/tfluna_ros2.egg-info/top_level.txt
+writing manifest file '../../build/tfluna_ros2/tfluna_ros2.egg-info/SOURCES.txt'
+reading manifest file '../../build/tfluna_ros2/tfluna_ros2.egg-info/SOURCES.txt'
+writing manifest file '../../build/tfluna_ros2/tfluna_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build
+creating /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib
+creating /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2
+copying tfluna_ros2/tfluna_publisher.py -> /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2
+copying tfluna_ros2/tfluna_subscriber.py -> /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2
+copying tfluna_ros2/__init__.py -> /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2
+running install
+running install_lib
+creating /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2
+copying /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2/tfluna_publisher.py -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2
+copying /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2/tfluna_subscriber.py -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2
+copying /home/luka/tf_luna_ros2_ws/build/tfluna_ros2/build/lib/tfluna_ros2/__init__.py -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2
+byte-compiling /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2/tfluna_publisher.py to tfluna_publisher.cpython-310.pyc
+byte-compiling /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2/tfluna_subscriber.py to tfluna_subscriber.cpython-310.pyc
+byte-compiling /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index
+creating /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index/resource_index
+creating /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index/resource_index/packages
+copying resource/tfluna_ros2 -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2
+creating /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/launch
+creating /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/config
+copying config/tfluna_config.yaml -> /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/share/tfluna_ros2/config
+running install_egg_info
+Copying ../../build/tfluna_ros2/tfluna_ros2.egg-info to /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/python3.10/site-packages/tfluna_ros2-1.0.0-py3.10.egg-info
+running install_scripts
+Installing tfluna_publisher script to /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/tfluna_ros2
+Installing tfluna_subscriber script to /home/luka/tf_luna_ros2_ws/install/tfluna_ros2/lib/tfluna_ros2
+writing list of installed files to '/home/luka/tf_luna_ros2_ws/build/tfluna_ros2/install.log'
